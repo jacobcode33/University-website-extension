@@ -1,0 +1,58 @@
+html body{
+    /*textcolour*/
+    padding-top: 0px !important;
+}
+
+ul li{
+    text-shadow: none !important;
+}
+
+#page{
+    background-color: rgb(216, 233, 235) !important;
+    }
+
+#page-header{
+    background-color:  rgb(220,255,240) !important;
+}
+
+.highlighted{
+    font-weight: bolder !important;
+}
+
+.page-mod-quiz-view{
+    color: blue !important;
+}
+
+.logo{
+    margin-left:30px !important;
+}
+
+.lambda-custom-menu{
+    background-color: rgb(75, 173, 180) !important;
+}
+
+.nav {
+    background-color: rgb(13, 139, 158);
+}
+
+#search{
+    background-color:rgb(75, 173, 180);
+}
+
+.container-fluid{
+    background-color:  rgb(220,255,240);
+}
+
+#wrapper{
+    width: 100% !important;
+    border-top: 0px solid white !important;
+}
+
+#page-site-index {
+    background-color: aquamarine;
+}
+
+.navbar-inner {
+    background-color: black !important;
+    box-shadow: 0 8px 10px rgba(0,0,0,10) !important;
+}

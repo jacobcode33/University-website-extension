@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "ELEbetter",
+    "description": "makes ELE look less bad",
+    "version": "1.0",
+    "icons": {
+        "16": "/images/tick.png",
+        "48": "/images/tick.png",
+        "128": "/images/tick.png"
+       },
+    "page_action":{
+        "default icon":{
+            "16": "/images/tick.png",
+            "48": "/images/tick.png",
+            "128": "/images/tick.png"
+        }
+    },
+    "content_scripts": [{
+        "matches": ["https://vle.exeter.ac.uk/*"],
+        "css": ["main.css"],
+        "js": ["highlight.js"]
+    }]
+}
